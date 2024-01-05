@@ -1,0 +1,161 @@
+#add {
+    font-family: 'Abril Fatface', serif;
+    text-align: justify;
+    border: rgb(216, 206, 206);
+    border-radius: 5px;
+    width: 400px;
+    margin: 0px;
+    font-size: 15px;
+    position: relative;
+    margin-left: 440px;
+}
+
+.row3 {
+    margin: 2px 570px 00px 270px;
+}
+
+.Enquiry {
+    font: bolder expanded larger 'Abril Fatface', serif;
+    text-align: center;
+    margin-left: 50px;
+    color: white;
+}
+
+body {
+    background-image: url("image/sc.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    background-position: center;
+    opacity: 100;
+    z-index: -1000;
+}
+
+form {
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+label {
+    color: white;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    display: flex;
+    text-align: left;
+    height: 15px;
+    width: 20px;
+}
+
+#add {
+    font-family: 'Abril Fatface', serif;
+    text-align: justify;
+    border: solid rgb(216, 206, 206);
+    border-radius: 5px;
+    width: 320px;
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+#add:hover {
+    background-color: color(prophoto-rgb 0.45 0.32 0.28);
+}
+
+.clmn:hover {
+    background-color: color(prophoto-rgb 0.45 0.32 0.28);
+}
+
+.main {
+    display: flex;
+}
+
+.add {
+    padding-left: 7px;
+}
+
+#head {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-bottom: solid rgb(216, 206, 206);
+    padding-right: 0;
+}
+
+span {
+    display: flex;
+}
+
+.footer {
+    border-top: solid rgb(216, 206, 206);
+    padding-left: 150px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+p {
+    border: 0px;
+    padding-left: 7px;
+    margin: 7px 0px 7px 0px;
+    border: 0;
+}
+
+.phone {
+    padding-left: 35px;
+    margin: 7px 0px 7px 0px;
+    border: 0;
+}
+
+
+input,
+textarea {
+    width: 80%;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+
+.clmn {
+    font-family: 'Abril Fatface', serif;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    text-align: justify;
+    border: solid rgb(216, 206, 206);
+    width: 275px;
+    padding: 0;
+    color: white;
+    z-index: auto;
+}
+
+#clmn {
+    margin-left: 5px;
+}
+
+.clmn img {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    margin-top: 4px;
+}
+
+h6 {
+    font-size: 19px;
+    padding: 0;
+    margin: 5px 10px;
+}
+
+hr {
+    margin: 7px 7px;
+}

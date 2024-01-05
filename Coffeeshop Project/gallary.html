@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The One Sip </title>
+    <link rel="stylesheet" href="gallary.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div id="logo"> <img src="image/logo.png" alt="logo"> </div>
+
+        <ul style="display: flex; margin: 0;">
+            <li><a href="home.html">Home </a> </li>
+            <li> <a href="gallary.html">Gallery</a> </li>
+            <li> <a href="Contact us.html">Contact Us</a> </li>
+            <li> <a href="Cart.html">Cart</a> </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row1">
+
+            <div class="item"><img src="image/cappu.jpg" alt="">
+                <ul id="ul1">
+                    <li id="Cappuccinoh">
+                        <h4>Cappuccinoh</h4>
+                    </li>
+                    <li><i>SHORT(237 ML) .104 Kcal</i></li> <br>
+                    <li class="con"> Dark, Rich in flavour espresso lies in wait under
+                        a smoothed and stretched layer of thick foam.
+                        It's truly the height of our baristas' craft.
+                    </li><br>
+                    <li id="Cappu-₹">₹ 283.50</li>
+                </ul>
+            </div>
+
+            <div class="item"><img src="image/doppioesp.jpg" alt="">
+                <ul id="ul1">
+                    <li id="D-Esp">
+                        <h4>Doppio Espresso</h4>
+                    </li>
+                    <li><i>PER SERVE (45 ML) - 0 Kcal</i></li><br>
+                    <li class="con">Our smooth signature Espresso Roast and its
+                        caramelly sweetness is at the very heart of everything we do.</li><br><br>
+                    <li id="D-Esp-₹">₹ 267.75</li>
+                </ul>
+            </div>
+
+            <div class="item"><img src="image/cortado.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Cortado</h4>
+                    </li>
+                    <li><i>PER SERVE (120 ML) - 72 Kcal</i> </li><br>
+                    <li class="con">A perfect espresso shot topped with steamed.
+                        An all time favourite.
+                    </li><br><br><br>
+                    <li>₹ 283.50</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="item"><img src="image/iced roasted.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Iced Roasted Nut Latte</h4>
+                    </li>
+                    <li><i>TALL(354 ML) .306 kcal</i></li><br>
+                    <li class="con">A perfect blend of Milk, Espresso and Cashew Nut
+                        Sauce finished with Whipped Cream and Pistachio Chunks. Served over Ice.</li><br>
+                    <li> ₹ 456.75</li>
+                </ul>
+            </div>
+
+
+
+            <div class="item"><img src="image/pumpkinspice.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Pumpkin spice latte</h4>
+                    </li>
+                    <li><i>SHORT(237 ML) .219 Kcal</i> </li><br>
+                    <li class="con"> Our signature espresso and steamed milk with the
+                        celebrated flavor combination of pumpkin, cinnamon, nutmeg and clove.
+                        Topped with whipped cream and Pumpkin Spice.
+                    </li>
+                    <li style="padding: 5px 0px 5px;">₹ 414.75</li>
+                </ul>
+            </div>
+
+            <div class="item"><img src="image/cold coff.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Cold coffee</h4>
+                    </li>
+                    <li><i>TALL(354 ML) .354 kcal</i></li><br>
+                    <li class="con"> Our signature rich in flavour espresso blended with
+                        delicate vanilla flavour and milk to create a perfect cold coffee delight.
+                        An all time favourite.
+                    </li><br>
+                    <li> ₹ 362.25</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div id="row3" class="item"><img src="image/chip frapp.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Chip Frappuccino</h4>
+                    </li>
+                    <li><i>TALL(354 ML) .392 kcal</i></li><br>
+                    <li class="con"> We blend mocha sauce and Frappuccino® chips with
+                        Frappuccino® roast coffee and milk and ice, then top with whipped
+                        cream and mocha drizzle to bring you endless java joy.
+                    </li><br>
+                    <li> ₹ 367.50</li>
+                </ul>
+            </div>
+
+
+            <div id="row3" class="item"><img src="image/doublechocolatechip.jpg" alt="">
+                <ul id="ul1">
+                    <li>
+                        <h4>Double Chocolate Chip </h4>
+                    </li>
+                    <li> <i>TALL(354 ML) .415 kcal</i></li><br>
+                    <li class="con">Rich mocha-flavored sauce meets up with chocolaty chips, milk and ice.
+                        Top it off with sweetened whipped cream and mocha drizzle for a real party in your mouth.
+                    </li><br>
+                    <li> ₹ 399.00</li>
+                </ul>
+            </div>
+
+            <div id="row3" class="item">
+                <ul id="ul1">
+                    <li>
+                        <h4 style="margin: 10px 140px;">Total Bill </h4><br>
+                    </li>
+                    <li> <label> Enter Item:</label>
+                        <select id="list" onchange="getSelectValue()">
+                            <option value="283.50">Cappuccinoh </option>
+                            <option value="267.75">Doppio Espresso </option>
+                            <option value="283.50">Cortado </option>
+                            <option value="456.75">Iced Roasted Nut Latte </option>
+                            <option value="414.75">Pumpkin spice latte </option>
+                            <option value="362.25">Cold coffee </option>
+                            <option value="367.50">Chip Frappuccino </option>
+                            <option value="399.00">Double Chocolate Chip </option>
+                        </select> &nbsp;&nbsp;
+                        <span id="price"> Price </span><br>
+                    </li> <br>
+
+                    <li> Quantity: <input type="number" name="Quantity" id="qty">
+                        <button type="button" onclick="Total()">Calculate</button>
+                    </li><br>
+
+                    <li id="Total"> Total Cost </li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            function getSelectValue() {
+                var Price = document.getElementById("list").value;
+                document.getElementById("price").innerHTML = "Price = ₹ " + Price
+            }
+
+            function Total() {
+                Qty = parseInt(document.getElementById("qty").value);
+                var Price = document.getElementById("list").value;
+                let Total = Price * Qty;
+                document.getElementById("Total").innerHTML = "Total Cost = ₹ " + Total
+            }
+        </script>
+</body>
+
+</html>

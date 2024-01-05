@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title> The One Sip </title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div id="logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <ul>
+
+            <li><a href="home.html">Home </a> </li>
+
+            <li> <a href="gallary.html">Gallery</a> </li>
+            <li> <a href="Contact us.html">Contact Us</a> </li>
+
+        </ul>
+    </nav>
+
+    <li>
+        <h1 style="margin: 10px 140px;">Total Bill </h1><br>
+    </li>
+
+    <div class="list">
+        <ul id="L1">
+            <li> <label> Enter Item - 1:</label>
+                <select id="list1" onchange="getSelectValue1()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price1"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty1">
+                <button type="button" onclick="Total1()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total1"> </li>
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L2">
+
+            <li> <label> Enter Item - 2:</label>
+                <select id="list2" onchange="getSelectValue2()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price2"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty2">
+                <button type="button" onclick="Total2()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total2"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L3">
+
+            <li> <label> Enter Item - 3:</label>
+                <select id="list3" onchange="getSelectValue3()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price3"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty3">
+                <button type="button" onclick="Total3()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total3"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L4">
+
+            <li> <label> Enter Item - 4:</label>
+                <select id="list4" onchange="getSelectValue4()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price4"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty4">
+                <button type="button" onclick="Total4()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total4"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L5">
+
+            <li> <label> Enter Item - 5:</label>
+                <select id="list5" onchange="getSelectValue5()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price5"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty5">
+                <button type="button" onclick="Total5()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total5"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L6">
+
+            <li> <label> Enter Item - 6:</label>
+                <select id="list6" onchange="getSelectValue6()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price6"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty6">
+                <button type="button" onclick="Total6()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total6"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L7">
+
+            <li> <label> Enter Item - 7:</label>
+                <select id="list7" onchange="getSelectValue7()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price7"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty7">
+                <button type="button" onclick="Total7()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total7"> </li>
+
+        </ul>
+    </div>
+
+    <div class="list">
+        <ul id="L8">
+
+            <li> <label> Enter Item - 8:</label>
+                <select id="list8" onchange="getSelectValue8()">
+                    <option value="283.50">Cappuccinoh </option>
+                    <option value="267.75">Doppio Espresso </option>
+                    <option value="283.50">Cortado </option>
+                    <option value="456.75">Iced Roasted Nut Latte </option>
+                    <option value="414.75">Pumpkin spice latte </option>
+                    <option value="362.25">Cold coffee </option>
+                    <option value="367.50">Chip Frappuccino </option>
+                    <option value="399.00">Double Chocolate Chip </option>
+                </select> &nbsp;&nbsp;
+                <span id="price8"> Price </span><br>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li> Quantity: <input type="number" name="Quantity" id="qty8">
+                <button type="button" onclick="Total8()">Calculate</button>
+            </li> &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <li id="Total8"> </li>
+
+        </ul><br><br>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="button" onclick="Total_All()"> Receipt </button> &nbsp;&nbsp;&nbsp;&nbsp;
+    <span id="totalAmount">  Total </span>
+
+    <script>
+
+        function getSelectValue1() {
+            var Price = document.getElementById("list1").value;
+            document.getElementById("price1").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue2() {
+            var Price = document.getElementById("list2").value;
+            document.getElementById("price2").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue3() {
+            var Price = document.getElementById("list3").value;
+            document.getElementById("price3").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue4() {
+            var Price = document.getElementById("list4").value;
+            document.getElementById("price4").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue5() {
+            var Price = document.getElementById("list5").value;
+            document.getElementById("price5").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue6() {
+            var Price = document.getElementById("list6").value;
+            document.getElementById("price6").innerHTML = "Price = ₹ " + Price
+        }
+
+        function getSelectValue7() {
+            var Price = document.getElementById("list7").value;
+            document.getElementById("price7").innerHTML = "Price = ₹ " + Price
+        }
+        function getSelectValue8() {
+            var Price = document.getElementById("list8").value;
+            document.getElementById("price8").innerHTML = "Price = ₹ " + Price
+        }
+
+
+        function Total1() {
+            Qty = parseInt(document.getElementById("qty1").value);
+            var Price = document.getElementById("list1").value;
+            var Total_1 = Price * Qty;
+            document.getElementById("Total1").innerHTML = "Total Cost = ₹ " + Total_1
+            return Total_1 || 0
+        }
+
+        function Total2() {
+            Qty = parseInt(document.getElementById("qty2").value);
+            var Price = document.getElementById("list2").value;
+            var Total_2 = Price * Qty;
+            document.getElementById("Total2").innerHTML = "Total Cost = ₹ " + Total_2
+            return Total_2 || 0
+        }
+
+        function Total3() {
+            Qty = parseInt(document.getElementById("qty3").value);
+            var Price = document.getElementById("list3").value;
+            var Total_3 = Price * Qty;
+            document.getElementById("Total3").innerHTML = "Total Cost = ₹ " + Total_3
+            return Total_3 || 0 
+        }
+
+        function Total4() {
+            Qty = parseInt(document.getElementById("qty4").value);
+            var Price = document.getElementById("list4").value;
+            var Total_4 = Price * Qty;
+            document.getElementById("Total4").innerHTML = "Total Cost = ₹ " + Total_4
+            return Total_4 || 0
+        }
+
+        function Total5() {
+            Qty = parseInt(document.getElementById("qty5").value);
+            var Price = document.getElementById("list5").value;
+            var Total_5 = Price * Qty;
+            document.getElementById("Total5").innerHTML = "Total Cost = ₹ " + Total_5
+            return Total_5 || 0
+        }
+
+        function Total6() {
+            Qty = parseInt(document.getElementById("qty6").value);
+            var Price = document.getElementById("list6").value;
+            var Total_6 = Price * Qty;
+            document.getElementById("Total6").innerHTML = "Total Cost = ₹ " + Total_6
+            return Total_6 || 0
+        }
+
+        function Total7() {
+            Qty = parseInt(document.getElementById("qty7").value);
+            var Price = document.getElementById("list7").value;
+            var Total_7 = Price * Qty;
+            document.getElementById("Total7").innerHTML = "Total Cost = ₹ " + Total_7
+            return Total_7 || 0
+        }
+
+        function Total8() {
+            Qty = parseInt(document.getElementById("qty8").value);
+            var Price = document.getElementById("list8").value;
+            var Total_8 = Price * Qty;
+            document.getElementById("Total8").innerHTML = "Total Cost = ₹ " + Total_8
+            return Total_8 || 0
+        }
+
+        function Total_All() {           
+            let Total_All = Total1()+Total2()+Total3()+Total4()+Total5()+Total6()+Total7()+Total8();
+            document.getElementById("totalAmount").innerHTML = "Total Cost = ₹ " +Total_All;            
+        }
+
+    </script>
+</body>
+
+</html>
